@@ -6,16 +6,28 @@ This is a Python port of the [R package](https://github.com/Zhen-Miao/PICsnATAC)
 
 ## Installation
 
+Requires **Python >= 3.9**.
+
+Install directly from GitHub:
+
 ```bash
+pip install git+https://github.com/Zhen-Miao/PICsnATAC-py.git
+```
+
+Or from a local clone:
+
+```bash
+git clone https://github.com/Zhen-Miao/PICsnATAC-py.git
+cd PICsnATAC-py
 pip install .
 ```
 
 ### Dependencies
 
-- numpy, pandas, scipy
-- pysam (replaces R's Rsamtools for tabix-indexed file access)
-- tqdm (progress bars)
-- joblib (parallel processing)
+- numpy (>= 1.22), pandas (>= 1.4), scipy (>= 1.8)
+- pysam (>= 0.20) — replaces R's Rsamtools for tabix-indexed file access
+- tqdm (>= 4.60) — progress bars
+- joblib (>= 1.1) — parallel processing
 
 ## Quick Start
 
